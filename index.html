@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lumière Atelier | Timeless Elegance</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="brand-logo">Lumière</div>
+      <div class="nav-links">
+        <a href="#katalog">Katalog</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#lokasi">Kontak</a>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <h1>Timeless Elegance for Your Everyday Style</h1>
+      <p>
+        Koleksi pakaian wanita bernuansa minimalis-chic dengan kualitas material
+        premium untuk penampilan elegan setiap hari.
+      </p>
+      <div class="btn-group">
+        <a href="#katalog" class="btn btn-primary">Lihat Koleksi</a>
+        <a
+          href="https://wa.me/6281234567890?text=Halo%20Lumi%C3%A8re%20Atelier,%20saya%20ingin%20tanya%20mengenai%20koleksi%20produk"
+          target="_blank"
+          class="btn btn-secondary"
+        >
+          <i class="fa-brands fa-whatsapp"></i> Hubungi Kami
+        </a>
+      </div>
+    </section>
+
+    <!-- KATALOG PRODUK -->
+    <section id="katalog">
+      <h2 class="section-title">Koleksi Terkini</h2>
+      <p class="section-subtitle">
+        Temukan gaya terbaikmu untuk kerja, santai, maupun acara formal.
+      </p>
+
+      <!-- Filter Kategori -->
+      <div class="filter-container">
+        <button class="filter-btn active" onclick="filterProduct('all')">
+          All
+        </button>
+        <button class="filter-btn" onclick="filterProduct('dresses')">
+          Dresses
+        </button>
+        <button class="filter-btn" onclick="filterProduct('outerwear')">
+          Outerwear
+        </button>
+        <button class="filter-btn" onclick="filterProduct('workwear')">
+          Workwear
+        </button>
+      </div>
+
+      <!-- Grid Katalog -->
+      <div class="catalog-grid" id="catalog-grid">
+        <!-- Diisi otomatis oleh JavaScript -->
+      </div>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section class="about-section" id="about">
+      <div class="about-content">
+        <h2 class="section-title" style="margin-top: 0">Lumière Atelier</h2>
+        <p>
+          Kami percaya bahwa kemewahan tidak harus rumit. Lumière Atelier hadir
+          membawa kurasi busana wanita berkonsep
+          <i>affordable luxury</i>—menggabungkan potongan minimalis modern
+          dengan kenyamanan maksimal.
+        </p>
+        <p>
+          Setiap helai pakaian diproduksi secara etis oleh pengrajin lokal
+          berbakat, menggunakan kain berkualitas tinggi yang dipilih dengan
+          teliti demi memberikan detail yang sempurna untuk Anda.
+        </p>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM FEED MOCKUP -->
+    <section style="margin-top: 60px">
+      <h2 class="section-title">@lumiere.atelier</h2>
+      <p class="section-subtitle">
+        Ikuti inspirasi gaya sehari-hari di Instagram kami.
+      </p>
+
+      <div class="insta-grid">
+        <img
+          src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=400&auto=format&fit=crop"
+          class="insta-item"
+          alt="Insta 1"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=400&auto=format&fit=crop"
+          class="insta-item"
+          alt="Insta 2"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=400&auto=format&fit=crop"
+          class="insta-item"
+          alt="Insta 3"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=400&auto=format&fit=crop"
+          class="insta-item"
+          alt="Insta 4"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=400&auto=format&fit=crop"
+          class="insta-item"
+          alt="Insta 5"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=400&auto=format&fit=crop"
+          class="insta-item"
+          alt="Insta 6"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1550614000-4895a10e1bfd?q=80&w=400&auto=format&fit=crop"
+          class="insta-item"
+          alt="Insta 7"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03?q=80&w=400&auto=format&fit=crop"
+          class="insta-item"
+          alt="Insta 8"
+        />
+      </div>
+    </section>
+
+    <!-- FOOTER & LOKASI -->
+    <footer class="footer-section" id="lokasi">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Lumière Atelier</h3>
+          <p>
+            Jam Operasional:<br />Senin – Sabtu: 10.00 – 20.00 WIB<br />Minggu:
+            Tutup
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Kunjungi Butik</h3>
+          <p>Jl. Senopati No. 45, Kebayoran Baru, Jakarta Selatan</p>
+          <br />
+          <a
+            href="https://maps.google.com"
+            target="_blank"
+            style="color: var(--accent-gold); text-decoration: underline"
+          >
+            <i class="fa-solid fa-location-dot"></i> Buka via Google Maps
+          </a>
+        </div>
+        <div class="footer-col">
+          <h3>Social Media</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; 2026 Lumière Atelier. All Rights Reserved.
+      </div>
+    </footer>
+
+    <!-- MODAL QUICK VIEW -->
+    <div class="modal-overlay" id="quickview-modal">
+      <div class="modal-body">
+        <button class="modal-close" onclick="closeModal()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <img src="" id="modal-img" class="modal-img" alt="Product Detail" />
+        <div class="modal-details">
+          <h3 id="modal-title" class="product-title" style="font-size: 1.5rem">
+            Nama Produk
+          </h3>
+          <p id="modal-price" class="product-price" style="font-size: 1.1rem">
+            Rp 0
+          </p>
+          <p
+            id="modal-desc"
+            style="font-size: 0.85rem; color: #666; margin-bottom: 15px"
+          >
+            Deskripsi bahan...
+          </p>
+
+          <label style="font-size: 0.85rem; font-weight: 600"
+            >Pilih Ukuran:</label
+          >
+          <div class="size-selector">
+            <button class="size-btn active" onclick="selectSize(this, 'S')">
+              S
+            </button>
+            <button class="size-btn" onclick="selectSize(this, 'M')">M</button>
+            <button class="size-btn" onclick="selectSize(this, 'L')">L</button>
+          </div>
+
+          <button
+            id="modal-wa-btn"
+            class="btn btn-primary"
+            style="width: 100%; justify-content: center"
+          >
+            <i class="fa-brands fa-whatsapp"></i> Pesan via WhatsApp
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLOATING WA BUTTON -->
+    <a
+      href="https://wa.me/6281234567890?text=Halo%20Lumi%C3%A8re%20Atelier,%20saya%20ingin%20bertanya"
+      target="_blank"
+      class="float-wa"
+      title="Chat via WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <script src="script.js"></script>
+  </body>
+</html>
